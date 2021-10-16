@@ -51,7 +51,6 @@ function draw() {
          
           if(objects[i].label == object_name)
           {
-            video.stop();
             objectDetector.detect(gotResult);
             document.getElementById("object_status").innerHTML = object_name + " Found";
             synth = window.speechSynthesis;
