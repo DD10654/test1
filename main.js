@@ -38,7 +38,7 @@ function draw() {
       if(status1 != "")
       {
         objectDetector.detect(video, gotResult);
-        for (i = 0; i < objects.lenght; i++) {
+        for (i = 0; i < objects.length; i++) {
           document.getElementById("status").innerHTML = "Status : Object Detected";
           
           fill("#FF0000");
